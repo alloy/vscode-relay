@@ -1,3 +1,5 @@
+![vscode-relay](https://cloud.githubusercontent.com/assets/2320/22180326/ff856ada-e03a-11e6-9975-e688b2aa17fb.gif)
+
 # vscode-relay README
 
 This is the README for your extension "vscode-relay". After writing up a brief description, we recommend including the following sections.
