@@ -20,6 +20,20 @@
                 "command": "extension.printPropsInterface",
                 "title": "Relay: Update props TypeScript interface"
             }
+        ],
+        "languages": [
+            {
+                "id": "source.graphql.relay",
+                "aliases": ["Relay query fragments"] //,
+                // "configuration": "./css-styled.configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "injectTo": ["source.js", "source.ts", "source.jsx", "source.tsx"],
+                "scopeName": "source.relay",
+                "path": "./syntaxes/relay.json"
+            }
         ]
     },
     "scripts": {
