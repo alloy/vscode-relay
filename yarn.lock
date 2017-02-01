@@ -598,19 +598,19 @@ graceful-fs@^4.0.0, graceful-fs@^4.1.2:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
 
-graphql-config-parser@alloy/graphql-config#build:
-  version "1.2.0"
-  resolved "https://codeload.github.com/alloy/graphql-config/tar.gz/134c6e928164f8ceaaf4e3c29ceb9ff39d0dc317"
+graphql-config-parser@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/graphql-config-parser/-/graphql-config-parser-1.2.1.tgz#74be9f930d2018afc1c78cd74069e04f69f964d7"
   dependencies:
     graphql "0.7.1 - 1.0.0"
     node-fetch "^1.6.3"
     valid-url "^1.0.9"
 
-"graphql@0.7.1 - 1.0.0", graphql@^0.8.2:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.8.2.tgz#eb1bb524b38104bbf2c9157f9abc67db2feba7d2"
+"graphql@0.7.1 - 1.0.0", "graphql@0.8.2 - 1.0.0":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.9.1.tgz#f4d154cbec054d4a5d3b1be95f23435c09aa86c8"
   dependencies:
-    iterall "1.0.2"
+    iterall "1.0.3"
 
 growl@1.9.2:
   version "1.9.2"
@@ -954,9 +954,9 @@ isstream@~0.1.1, isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
-iterall@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.0.2.tgz#41a2e96ce9eda5e61c767ee5dc312373bb046e91"
+iterall@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.0.3.tgz#e0b31958f835013c323ff0b10943829ac69aa4b7"
 
 jade@0.26.3:
   version "0.26.3"
@@ -1587,12 +1587,12 @@ regex-cache@^0.4.2:
     is-equal-shallow "^0.1.3"
     is-primitive "^2.0.0"
 
-relay2ts@alloy/relay2ts:
-  version "0.1.3"
-  resolved "https://codeload.github.com/alloy/relay2ts/tar.gz/bb26e336c8b27c5ed5a8b6848f2c9e67e526b7da"
+relay2ts@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/relay2ts/-/relay2ts-0.2.0.tgz#964f903c0a943a7aa8fa0b8a0ccdfd63f826e669"
   dependencies:
-    graphql "^0.8.2"
-    graphql-config-parser alloy/graphql-config#build
+    graphql "0.8.2 - 1.0.0"
+    graphql-config-parser "^1.2.1"
     minimist "^1.2.0"
     typescript "^2.1.5"
 
